@@ -9,8 +9,8 @@ from train import train
 from inference import inference
 
 def main():
-    train(checkpoint_path=None, lr=2e-5, num_epochs=75)
+    train(checkpoint_path=None, lr=2e-5, num_epochs=70)
     inference('checkpoints/ddpm_checkpoint')
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
