@@ -1,5 +1,5 @@
 ## U-Net Based Denoising Diffusion Model for Image Generation
-This repository implements a Denoising Diffusion Probabilistic Model (DDPM) using a U-Net architecture, designed for image generation. The model is trained on the MNIST dataset and is implemented with PyTorch. It includes modular components for easier maintenance, scalability, and future enhancements.
+This repository implements a Denoising Diffusion Probabilistic Model (DDPM) using a U-Net architecture, designed for image generation. The model is trained on the MNIST dataset and is implemented with PyTorch. It includes modular components for easier maintenance, scalability, and future enhancements. Essentially its a Diffusion Model From Scratch.
 
 ### Features
 
