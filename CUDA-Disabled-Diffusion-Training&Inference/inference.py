@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 from einops import rearrange
 from utils.display import display_reverse
 
+@torch.no_grad()
 def inference(checkpoint_path: str=None,
               num_time_steps: int=1000,
               ema_decay: float=0.9999, ):
